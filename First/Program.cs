@@ -12,7 +12,6 @@ namespace First
         public string Nimi { get; set; }
         public int Ikä { get; set; }
     }
-
     class Program
     {
         static void Main(string[] args)
@@ -32,7 +31,6 @@ namespace First
             Console.WriteLine("Hello " + immeinen.Nimi);
             Console.WriteLine("Olet " + immeinen.Ikä + " vuotta vanha");
         }
-        
         static void AskAge()
         {
             Console.WriteLine("Minä vuonna olet syntynyt? Muotoa XXXX.");
@@ -41,6 +39,5 @@ namespace First
             int age = int.Parse(input);
             Console.WriteLine("Olet " + (DateTime.Today.Year - age) + " vuotta vanha.");
         }
-
     }
 }

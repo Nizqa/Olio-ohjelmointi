@@ -48,10 +48,7 @@ namespace Sormiharjoitukset
                     bool reroll = true;
                     
                     numbers[j] = Rnd.Next(1, 40);
-                    
-                    
                 }
-
                 for (int k = 0; k < 7; k++)
                     Console.Write(numbers[k] + " ");
                 Console.WriteLine();
