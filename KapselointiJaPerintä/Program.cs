@@ -30,6 +30,7 @@ namespace KapselointiJaPerintä
                     speedPrivate = value;
             }
         }
+        public string Brand { get; set; }
         // Constructors
         public Car ()
         { // Tämä on oletuskonstruktori, joka pitää määritellä, jos määrittelee muita konstruktoreita.
@@ -51,6 +52,10 @@ namespace KapselointiJaPerintä
             else
                 speedPrivate = maxSpeed;
         }
+        public override string ToString()
+        {
+            return Brand + ", " + Horsepower + ", " + speedPrivate;
+        }
     }
     /*class Elevator
     {
@@ -68,24 +73,28 @@ namespace KapselointiJaPerintä
         {
             // luodaan car-olio
             Car car1 = new Car(); // Kutsuu oletuskonstruktoria.
+            car1.Brand = "Toyota";
             car1.Horsepower = 128;
             car1.Speed = 175;
             Car car2 = new Car();
+            car2.Brand = "Porsche";
             car2.Horsepower = 300;
             car2.Speed = 250;
             Car fiat = new Car(55, 105); // Propertyt voidaan asettaa heti, koska on tehty konstruktori.
+            fiat.Brand = "Fiat";
             // näytetään konsolilla
-            Console.WriteLine("Autosi 1 nopeus on {0}.", car1.Speed);
-            Console.WriteLine("Autosi 2 nopeus on {0}.", car2.Speed);
-            Console.WriteLine("Autosi 2 nopeus on {0}.", fiat.Speed);
+            Console.WriteLine("Auto 1 = {0}", car1.ToString());
+            Console.WriteLine("Autosi {1} nopeus on {0}.", car1.Speed, car1.Brand);
+            Console.WriteLine("Autosi {1} nopeus on {0}.", car2.Speed, car2.Brand);
+            Console.WriteLine("Autosi {1} nopeus on {0}.", fiat.Speed, fiat.Brand);
             // Kiihdytetään kumpaakin autoa 20km/h
             car1.Accelerate(20);
             car2.Accelerate(20);
             fiat.Accelerate(20);
             Console.WriteLine("Kiihdytettiin 20km/h");
-            Console.WriteLine("Autosi 1 nopeus on {0}.", car1.Speed);
-            Console.WriteLine("Autosi 2 nopeus on {0}.", car2.Speed);
-            Console.WriteLine("Autosi 2 nopeus on {0}.", fiat.Speed);
+            Console.WriteLine("Autosi {1} nopeus on {0}.", car1.Speed, car1.Brand);
+            Console.WriteLine("Autosi {1} nopeus on {0}.", car2.Speed, car2.Brand);
+            Console.WriteLine("Autosi {1} nopeus on {0}.", fiat.Speed, fiat.Brand);
         }
         static void Main(string[] args)
         {
