@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlioidenPerusteet", "Olioid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KapselointiJaPerintä", "KapselointiJaPerintä\KapselointiJaPerintä.csproj", "{D1A51D9F-5AA2-4170-BB89-9C29C7567603}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labra5", "Labra5\Labra5.csproj", "{204F0A08-1E31-42D1-B885-4AB8EE5510C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D1A51D9F-5AA2-4170-BB89-9C29C7567603}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1A51D9F-5AA2-4170-BB89-9C29C7567603}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1A51D9F-5AA2-4170-BB89-9C29C7567603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204F0A08-1E31-42D1-B885-4AB8EE5510C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204F0A08-1E31-42D1-B885-4AB8EE5510C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204F0A08-1E31-42D1-B885-4AB8EE5510C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204F0A08-1E31-42D1-B885-4AB8EE5510C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

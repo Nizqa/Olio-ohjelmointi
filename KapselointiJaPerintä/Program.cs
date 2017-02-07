@@ -12,7 +12,7 @@ namespace KapselointiJaPerintä
         // Näinkin voi tehdä, mutta vältä.
         // public int Speed;
         public int Horsepower { get; set; }
-        // Sisäinen muuttuha määrittelee maksiminopeuden, jonka oliolle voi asettaa.
+        // Sisäinen muuttuja määrittelee maksiminopeuden, jonka oliolle voi asettaa.
         private const int maxSpeed = 200; // Const tarkoittaa vakiota. Readonly voidaan asettaa kerran.
         private int speedPrivate;
         public int Speed
@@ -39,7 +39,7 @@ namespace KapselointiJaPerintä
         {
             Horsepower = horsepower;
             if (speed < maxSpeed)
-                this.speedPrivate = speed; // This viittaa olioon itseensä. Tarvitsee jos taustamuuttuja ja argumentti onvat saman nimisiä.
+                this.speedPrivate = speed; // This viittaa olioon itseensä. Tarvitsee jos taustamuuttuja ja argumentti ovat samannimisiä.
             else
                 speedPrivate = maxSpeed;
         }
