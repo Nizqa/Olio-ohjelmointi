@@ -13,10 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KapselointiJaPerintä", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labra5", "..\Labra5\Labra5.csproj", "{204F0A08-1E31-42D1-B885-4AB8EE5510C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labra6", "Labra6.csproj", "{8C2DC25F-8988-45F6-8F43-C4309744008B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labra6Teht2", "Labra6Teht2\Labra6Teht2.csproj", "{5835D172-964F-4C2F-BF18-5680429495C0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,14 +39,6 @@ Global
 		{204F0A08-1E31-42D1-B885-4AB8EE5510C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{204F0A08-1E31-42D1-B885-4AB8EE5510C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{204F0A08-1E31-42D1-B885-4AB8EE5510C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C2DC25F-8988-45F6-8F43-C4309744008B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C2DC25F-8988-45F6-8F43-C4309744008B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C2DC25F-8988-45F6-8F43-C4309744008B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C2DC25F-8988-45F6-8F43-C4309744008B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5835D172-964F-4C2F-BF18-5680429495C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5835D172-964F-4C2F-BF18-5680429495C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5835D172-964F-4C2F-BF18-5680429495C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5835D172-964F-4C2F-BF18-5680429495C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

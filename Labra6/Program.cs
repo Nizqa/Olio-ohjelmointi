@@ -27,6 +27,10 @@ namespace Labra6
             myFriends.Add(friend2);
             myFriends.Add(friend3);
             myFriends.Add(friend4);
+
+
+
+
             // Näytetään rekisteri
             Console.WriteLine("*** Kaverirekisterisi ***");
             myFriends.ShowPersons();
