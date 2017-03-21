@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TextBox x:Name="ikkunanLeveys" HorizontalAlignment="Left" Height="23" Margin="142,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ikkunanKorkeus" HorizontalAlignment="Left" Height="23" Margin="142,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="karminLeveys" HorizontalAlignment="Left" Height="23" Margin="142,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="45"/>
+        <Button x:Name="Laske" Content="Laske" HorizontalAlignment="Left" Margin="62,143,0,0" VerticalAlignment="Top" Width="84" Height="29" Click="Laske_Click"/>
+        <TextBlock x:Name="ikkunanAla" HorizontalAlignment="Left" Margin="142,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="-"/>
+        <TextBlock x:Name="lasinAla" HorizontalAlignment="Left" Margin="142,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="-"/>
+        <TextBlock x:Name="karminPiiri" HorizontalAlignment="Left" Margin="142,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="-"/>
+        <Label x:Name="label" Content="Ikkunan leveys:" HorizontalAlignment="Left" Margin="10,23,0,0" VerticalAlignment="Top" Width="107"/>
+        <Label x:Name="label_Copy" Content="Ikkunan korkeus:" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="Karmipuun leveys:" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.522,0.026"/>
+        <Label x:Name="label_Copy2" Content="Ikkunan pinta-ala:" HorizontalAlignment="Left" Margin="10,186,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy3" Content="Lasin pinta-ala:" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy4" Content="Karmin piiri:" HorizontalAlignment="Left" Margin="10,261,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.569,1.588"/>
+        <Label x:Name="label1" Content="Syötä arvot millimetreinä" HorizontalAlignment="Left" Margin="290,24,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

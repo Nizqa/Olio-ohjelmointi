@@ -20,9 +20,24 @@ namespace Wpfteht3
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Laske_Click(object sender, RoutedEventArgs e)
+        {
+            int alaIkkuna = int.Parse(ikkunanLeveys.Text) * int.Parse(ikkunanKorkeus.Text);
+            
+            ikkunanAla.Text = (alaIkkuna / 100).ToString() + " cm2";
+
+            int alaLasi = (int.Parse(ikkunanLeveys.Text) - (2 * int.Parse(karminLeveys.Text)))
+                            * (int.Parse(ikkunanKorkeus.Text) - (2 * int.Parse(karminLeveys.Text)));
+            lasinAla.Text = (alaLasi / 100).ToString() + " cm2";
+
+            int piiriKarmi = 2 * (int.Parse(ikkunanLeveys.Text) + int.Parse(ikkunanKorkeus.Text));
+            karminPiiri.Text = (piiriKarmi / 100).ToString() + " cm";
         }
     }
 }
