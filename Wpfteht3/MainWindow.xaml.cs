@@ -30,14 +30,14 @@ namespace Wpfteht3
         {
             int alaIkkuna = int.Parse(ikkunanLeveys.Text) * int.Parse(ikkunanKorkeus.Text);
             
-            ikkunanAla.Text = (alaIkkuna / 100).ToString() + " cm2";
+            ikkunanAla.Text = (alaIkkuna / 10).ToString() + " cm2";
 
             int alaLasi = (int.Parse(ikkunanLeveys.Text) - (2 * int.Parse(karminLeveys.Text)))
                             * (int.Parse(ikkunanKorkeus.Text) - (2 * int.Parse(karminLeveys.Text)));
-            lasinAla.Text = (alaLasi / 100).ToString() + " cm2";
+            lasinAla.Text = (alaLasi / 10).ToString() + " cm2";
 
             int piiriKarmi = 2 * (int.Parse(ikkunanLeveys.Text) + int.Parse(ikkunanKorkeus.Text));
-            karminPiiri.Text = (piiriKarmi / 100).ToString() + " cm";
+            karminPiiri.Text = (piiriKarmi / 10).ToString() + " cm";
         }
     }
 }
