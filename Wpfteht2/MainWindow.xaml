@@ -1,0 +1,16 @@
+﻿<Window x:Class="Wpfteht2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpfteht2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="toMarkka" Content="Convert to Markka" HorizontalAlignment="Left" Margin="106,145,0,0" VerticalAlignment="Top" Width="139" Height="43" Click="toMarkka_Click"/>
+        <Button x:Name="toEuro" Content="Convert to Euro (€)" HorizontalAlignment="Left" Margin="271,145,0,0" VerticalAlignment="Top" Width="147" Height="43" Click="toEuro_Click"/>
+        <TextBox x:Name="amount" HorizontalAlignment="Left" Height="28" Margin="202,83,0,0" TextWrapping="Wrap" Text="Insert amount" VerticalAlignment="Top" Width="127" GotFocus="amount_GotFocus"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="225,225,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="40" Width="90"/>
+
+    </Grid>
+</Window>
