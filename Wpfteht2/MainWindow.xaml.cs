@@ -20,6 +20,10 @@ namespace Wpfteht2
     /// </summary>
     public partial class MainWindow : Window
     {
+        
+        double money = 0;
+        double kurssi = 5.94573;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -27,12 +31,20 @@ namespace Wpfteht2
 
         private void toMarkka_Click(object sender, RoutedEventArgs e)
         {
-
+            string retval = amount.Text;
+            double.TryParse(retval, out money);
+            money = money * kurssi;
+            string value = money.ToString("0.00"); // Two desimals.
+            converted.Text = value + " mk";
         }
 
         private void toEuro_Click(object sender, RoutedEventArgs e)
         {
-
+            string retval = amount.Text;
+            double.TryParse(retval, out money);
+            money = money / kurssi;
+            string value = money.ToString("0.00"); // Two desimals.
+            converted.Text = value + "€";
         }
 
         private void amount_GotFocus(object sender, RoutedEventArgs e)

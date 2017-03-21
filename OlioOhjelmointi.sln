@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpfteht1", "Wpfteht1\Wpfteh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpfteht2", "Wpfteht2\Wpfteht2.csproj", "{191C0222-65AD-4AE4-8CDF-D96FB91917B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpfteht3", "Wpfteht3\Wpfteht3.csproj", "{343ACE4C-D982-4DD0-AFE9-394E173C523C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{191C0222-65AD-4AE4-8CDF-D96FB91917B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{191C0222-65AD-4AE4-8CDF-D96FB91917B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{191C0222-65AD-4AE4-8CDF-D96FB91917B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343ACE4C-D982-4DD0-AFE9-394E173C523C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343ACE4C-D982-4DD0-AFE9-394E173C523C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343ACE4C-D982-4DD0-AFE9-394E173C523C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343ACE4C-D982-4DD0-AFE9-394E173C523C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

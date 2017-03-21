@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="toMarkka" Content="Convert to Markka" HorizontalAlignment="Left" Margin="106,145,0,0" VerticalAlignment="Top" Width="139" Height="43" Click="toMarkka_Click"/>
-        <Button x:Name="toEuro" Content="Convert to Euro (€)" HorizontalAlignment="Left" Margin="271,145,0,0" VerticalAlignment="Top" Width="147" Height="43" Click="toEuro_Click"/>
-        <TextBox x:Name="amount" HorizontalAlignment="Left" Height="28" Margin="202,83,0,0" TextWrapping="Wrap" Text="Insert amount" VerticalAlignment="Top" Width="127" GotFocus="amount_GotFocus"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="225,225,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="40" Width="90"/>
+        <Button x:Name="toMarkka" Content="Convert to Markka" HorizontalAlignment="Left" Margin="100,145,0,0" VerticalAlignment="Top" Width="139" Height="43" Click="toMarkka_Click"/>
+        <Button x:Name="toEuro" Content="Convert to Euro (€)" HorizontalAlignment="Right" Margin="0,145,100,0" VerticalAlignment="Top" Width="147" Height="43" Click="toEuro_Click"/>
+        <TextBox x:Name="amount" Height="34" Margin="173,95,173,190" TextWrapping="Wrap" Text="Insert amount" VerticalAlignment="Center" GotFocus="amount_GotFocus" FontSize="18" TextAlignment="Center" BorderThickness="1,5"/>
+        <TextBlock x:Name="converted" Margin="173,212,173,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" FontSize="24" TextOptions.TextFormattingMode="Display" TextAlignment="Center"/>
 
     </Grid>
 </Window>
